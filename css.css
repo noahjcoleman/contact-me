@@ -1,0 +1,31 @@
+html, h1, h2, h3, body, head, p {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+div {
+    font-family: "myfirstfont";
+    display: block;
+    text-align: center;
+    padding: 30px;
+    border: solid black 1px;
+    border-radius:3%;
+    margin: 100px 475px;
+}
+label {
+    text-align: center;
+}
+form {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+input {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+@font-face {
+    font-family: "OFL";
+    src: local("./OFL.woff2") 
+}
